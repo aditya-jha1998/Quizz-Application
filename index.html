@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="maincontent" class="main-content">
+      <div class="inner-box">
+        <div class="question" id="question" class="Ques">
+          <h2 id="questionin" class="Quesout">Q1. What is your Name?</h2>
+        </div>
+        <div class="option-list" id="answer">
+          <ul>
+            <li>
+              <input
+                type="radio"
+                id="ans1"
+                class="answer"
+                name="option"
+                value="1"
+              />
+              <label for="ans1" id="option1">Aditya Kumar Jha</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                id="ans2"
+                class="answer"
+                name="option"
+                value="2"
+              />
+              <label for="ans2" id="option2">Aditya Kumar Jha</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                id="ans3"
+                class="answer"
+                name="option"
+                value="3"
+              />
+              <label for="ans3" id="option3">Aditya Kumar Jha</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                id="ans4"
+                class="answer"
+                name="option"
+                value="4"
+              />
+              <label for="ans4" id="option4">Aditya Kumar Jha</label>
+            </li>
+          </ul>
+        </div>
+        <button id="button" class="butt" type="submit" name="submit">
+          submit
+        </button>
+
+        <div class="display-result hidden">
+          <h3 id="generateScore" class="score">
+            your Quizz performance is : 5/10
+          </h3>
+          <br />
+          <br />
+          <button id="playagain" class="butt" type="submit" name="submit">
+            PlayAgain!!!
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
