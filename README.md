@@ -24,15 +24,13 @@ There is no negative marking
 Once answered, it cannot be modified and the next question will be displayed immediately when user click on submit button
 if our score will be 0 then result will displayed at green color and score will be grater then zero then score will be displayed at green color.
 if our score is grater then 7 then score will be displayed on gold color
-A progress bar is displayed on the top left, which indicates the number of questions answered
-The score obtained is displayed on the top right, which indicates the score obtained till the point
 Once all the questions are answered, the final score is displayed on the screen.
 
 # The possible future enhancement include:
-  ###Adding multiple choice questions.
-  ###Storing data in more organized way in database.
-  ###A tab for viewing high scores can be introduced.
-  ###User feedback option can be introduced.
+  Adding multiple choice questions.
+  Storing data in more organized way in database.
+  A tab for viewing high scores can be introduced.
+  User feedback option can be introduced.
 
 # see A Project Code here
   https://github.com/aditya-jha1998/Quizz-Application
